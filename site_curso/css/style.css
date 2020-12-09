@@ -39,6 +39,9 @@ p {
     background: blue;
     margin: 14px auto
 }
+img{
+    display: block;
+}
 /* Header */
 
 .header {
@@ -140,6 +143,9 @@ p {
     padding: 30px;
     text-align: center;
 }
+.produtos_icone img{
+    margin: 0 auto;
+}
 .produtos li p{
     text-align: center;
     padding-bottom: 20px;
@@ -166,4 +172,44 @@ p {
     margin-top: 15px;
 }
 /* Qualidade */
-
+.qualidade{
+    padding: 40px 0;
+}
+.qualidade img {
+    margin: 0 auto;
+}
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+.qualidade_lista li h3{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+}
+.qualidade_lista li h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #1438A6;
+    margin: 6px auto 10px auto;
+}
+.qualidade::after{
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.png") no-repeat center;
+    position: absolute;
+    top: 170px;
+    right: 165px;
+    z-index: -1;
+}
+.qualidade_lista{
+    padding-top: 40px;
+}
