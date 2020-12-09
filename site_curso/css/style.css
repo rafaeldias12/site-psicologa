@@ -40,13 +40,14 @@ p {
     margin: 14px auto
 }
 /* Header */
+
 .header {
     z-index: 10;
     position: fixed;
     top: 0;
-    background: #1455D9;
+    background: white;
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .header_menu {
     text-align: right;   
@@ -70,12 +71,13 @@ p {
     color: #98b0f8;
 }
 /* Introdução */
+
 .introducao{
     width: 100%;
     height: 450px;
     background: url("../img/psicologia_intruducao.jpg")no-repeat center;
     background-size: cover;
-    margin-top: 100px;
+    margin-top: 65px;
     text-align: center;
     padding-top: 70px;
 }
@@ -108,6 +110,7 @@ p {
     margin: 14px auto 20px auto; 
 }
 /* Produtos */
+
 .produtos {
     padding: 60px 0;
     color: white;
@@ -151,3 +154,16 @@ p {
 .call p {
     margin-bottom: 20px;
 }
+/* Portfólio */
+
+.portfolio{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #bed1f7;
+    margin-bottom: 50px;
+}
+.lista_itens li:last-child{
+    margin-top: 15px;
+}
+/* Qualidade */
+
